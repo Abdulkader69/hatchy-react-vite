@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Syne';
+  src: url('../assets/fonts/Syne-Regular.woff2') format('woff2'),
+      url('../assets/fonts/Syne-Regular.woff') format('woff'),
+      url('../assets/fonts/Syne-Regular.svg#Syne-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Syne Extra';
+  src: url('../assets/fonts/Syne-Extra.woff2') format('woff2'),
+      url('../assets/fonts/Syne-Extra.woff') format('woff'),
+      url('../assets/fonts/Syne-Extra.svg#Syne-Extra') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  font-family: 'Syne', 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne Extra', 'Roboto';
+}
